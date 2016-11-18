@@ -213,46 +213,47 @@
 				<div class="col-md-4">
 					<div class="service">
 						<div class="icon-holder">
-							<img src="img/icons/heart-blue.png" alt="" class="icon">
+							<img src="img/caf.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Cafeteria</h4>
 						<p class="description">Vous trouverez au 5ème étage de l'EPSIC une cafétéria.</p><br>
-            <strong><p class="description">Horaires d'ouverture :</strong><br> 7h30 - 15h00 </p><br>
+            <strong><p class="description">Horaires d'ouverture :</strong><br> 7h30 - 15h00 </p>
             <p class="description"><a target="_blank" href="http://epsic.eldora.ch/">Voir les menus</a></p><br>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="service">
 						<div class="icon-holder">
-							<img src="img/icons/guru-blue.png" alt="" class="icon">
+							<img src="img/book.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Local de vente</h4>
 						<p class="description">Vous pourrez acheter votre matériel scolaire au local de vente au 4ème étage (salle 414).</p><br>
-						<strong><p class="description">Horaires d'ouverture : </strong><br>11h15 - 12h15</p>
+						<p class="description"><strong>Horaires d'ouverture : </strong><br>11h15 - 12h15</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="service">
 						<div class="icon-holder">
-							<img src="img/icons/weight-blue.png" alt="" class="icon">
+							<img src="img/people.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Médiateurs</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<p class="description">Une équipe de médiateurs est à la disposition des élèves.</p>
 					</div>
 				</div>
         <div class="col-md-4">
 					<div class="service">
 						<div class="icon-holder">
-							<img src="img/icons/weight-blue.png" alt="" class="icon">
+							<img src="img/read.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Médiathèque</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<p class="description">Dans cette section, vous trouverez toutes les informations sur la médiathèque.</p><br>
+						<p class="description"><strong>Horaires d'ouverture : </strong><br>07h45 - 16h45 / vendredi 16h00</p>
 					</div>
 				</div>
         <div class="col-md-4">
 					<div class="service">
 						<div class="icon-holder">
-							<img src="img/icons/weight-blue.png" alt="" class="icon">
+							<img src="img/heal.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Service santé</h4>
 						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
@@ -261,7 +262,7 @@
         <div class="col-md-4">
 					<div class="service">
 						<div class="icon-holder">
-							<img src="img/icons/weight-blue.png" alt="" class="icon">
+							<img src="img/bike.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Sports</h4>
 						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
