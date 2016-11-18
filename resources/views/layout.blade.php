@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>EPSIC - Ecole Professionnelle</title>
 	<meta name="description" content="Cardio is a free one page template made exclusively for Codrops by Luka Cvetinovic" />
-	<meta name="keywords" content="html template, css, free, one page, gym, fitness, web design" />
+	<meta name="keywords" content="html template, css, free, one page, gym, fitness, web design"/>
 	<meta name="author" content="Luka Cvetinovic for Codrops" />
 	<!-- Favicons (created with http://realfavicongenerator.net/)-->
 	<link rel="apple-touch-icon" sizes="57x57" href="{!! asset('img/favicons/apple-touch-icon-57x57.png') !!}">
