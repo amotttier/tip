@@ -238,6 +238,7 @@
 						</div>
 						<h4 class="heading">Médiateurs</h4>
 						<p class="description">Une équipe de médiateurs est à la disposition des élèves.</p>
+						<p class="description"><a>Plus d'informatiosns</a></p>
 					</div>
 				</div>
         <div class="col-md-4">
@@ -407,8 +408,9 @@
 				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
 				<h3 class="white">Connexion</h3>
 				<form action="{{ url('/login') }}" method="post" class="popup-form">
-					<input type="text" class="form-control form-white" placeholder="Nom d'utilisateur">
-					<input type="text" class="form-control form-white" placeholder="Mot de passe">
+					{{ csrf_field() }}
+					<input type="text" name="username" class="form-control form-white" placeholder="Nom d'utilisateur" >
+					<input type="password" name="password" class="form-control form-white" placeholder="Mot de passe">
 					<button type="submit" class="btn btn-submit">Se Connecter</button>
 				</form>
 			</div>
