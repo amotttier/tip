@@ -1,0 +1,102 @@
+/*
+* -- ccs
+*/
+body{font-size:12px; font-family:Arial, Helvetica, sans-serif; text-align:center;}
+
+
+
+
+#path { font-size:12px; color:#333333; margin:10px 50px 10px 8px}
+
+#header { width:100%; height:80px;  }
+#main { width:100%; }
+#linkbox { width:100%; height:30px; }
+#linkbox2 { text-align:left; vertical-align:middle; }
+
+TABLE { font-size:12px; }
+
+TD.sysdoctitle {  font-weight:bold;
+                font-size:34px;
+                color:#000000;
+                height:100px;
+                vertical-align:middle;
+                }
+
+#sysdocvers { font-size:12px; color:#000000; width:250px; height:100px; float: right; vertical-align:middle; }
+
+.saisieT {
+        font-size : 12pt;
+        color : black;
+        background-color : #DDFFDD;
+        border-left : 0px solid black;
+        border-right : 0px solid #0FE6F0;
+        border-top : 0px solid #0FE6F0;
+        border-bottom : 1px solid black;
+	text-align : center;
+}
+.saisie {
+        font-size : 9pt;
+        color : black;
+        background-color : #DDFFDD;
+        border-left : 0px solid black;
+        border-right : 0px solid #0FE6F0;
+        border-top : 0px solid #0FE6F0;
+        border-bottom : 1px solid black;
+}
+
+.login{
+        margin: 0px;
+}
+
+.table-header{
+        border-bottom: 2px solid;
+        font-size: 24px;
+        padding: 50px 200px;
+}
+
+.change-password{
+        margin: auto;
+}
+
+.request{
+  margin: auto;
+}
+.server-list{
+  margin: auto;
+}
+
+.hidden{
+  display: none !important;
+}
+.select-create-user{
+  margin-top: 50px;
+}
+.btn-create-user{
+  margin-top: 50px;
+}
+.h3-copy{
+  margin-top: 50px;
+}
+.hr{
+  border:1px solid black;
+  width: 750px;
+  margin: 50px auto;
+}
+.tbl-confirm{
+  margin:50px auto;
+}
+.menu_section > ul {
+    text-align: left;
+  }
+
+.material-icons{
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.menu_section h3{
+  margin-left: 50px;
+}
+body{
+  background: #f7f7f7 none repeat scroll 0 0;
+}

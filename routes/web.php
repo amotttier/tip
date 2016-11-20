@@ -13,3 +13,8 @@
 
 Route::auth();
 Route::get('/', 'HomeController@index');
+Route::group(['middleware' => 'auth'], function () {
+  Route::group(['prefix' => 'back'], function () {
+    Route::get('/','BackController@index');
+  });
+});
