@@ -49,7 +49,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="{!! asset('img/logo.png') !!}" data-active-url="img/logo-active.png" alt=""></a>
+				<a class="navbar-brand" href="#"><img style="height:70px"src="{!! asset('img/logo.png') !!}" data-active-url="{!! asset('img/logo-active.png') !!}" alt=""></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -257,7 +257,7 @@
 							<img src="img/heal.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Service santé</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<p class="description">Une équipe d'infirmières est à la disposition des élèves pour toutes questions ou problèmes liés à la santé.</p>
 					</div>
 				</div>
         <div class="col-md-4">
@@ -266,7 +266,7 @@
 							<img src="img/bike.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Sports</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<p class="description">Deux journées sont organisées annuellement pour les élèves. L'une se déroule en hiver et une autre en été</p>
 					</div>
 				</div>
 			</div>
@@ -276,7 +276,7 @@
 	<section id="team" class="section gray-bg">
 		<div class="container">
 			<div class="row title text-center">
-				<h2 class="margin-top">Team</h2>
+				<h2 class="margin-top">Conseil de direction</h2>
 				<h4 class="light muted">We're a dream team!</h4>
 			</div>
 			<div class="row">
