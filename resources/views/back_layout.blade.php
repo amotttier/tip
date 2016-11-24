@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	<title>Daily Check @if(Auth::check())| {{ $title }} @endif</title>
+	<title>Epsic</title>
 
 	<link rel="shortcut icon" href="{!! asset('img/favicon.ico') !!}">
 
@@ -72,7 +72,7 @@
 			<div class="col-md-3 left_col">
 				<div class="left_col scroll-view">
 					<div class="navbar nav_title" style="border: 0;">
-						<div class="site_title"><span>Daily Check</span></div>
+						<div class="site_title"><span>Epsic</span></div>
 					</div>
 
 					<div class="clearfix"></div>
@@ -83,7 +83,7 @@
 							<img src="{!! asset('img/Joker.JPEG') !!}" class="img-circle profile_img">
 						</div>
 						<div class="profile_info">
-							<span>You are connected as</span>
+							<span>Vous êtes connecté</span>
 							<h2>{{ Auth::user()->first_name.' '.Auth::user()->last_name}}</h2>
 						</div>
 					</div>
@@ -96,34 +96,8 @@
 						<div class="menu_section">
 							<h3>XMPT4A</h3>
 							<ul class="nav side-menu">
-								<li><a href="{{ url('/') }}"><i class="material-icons">dashboard</i> Home </span></a></li>
-								<li><a href="{{ url('/dailycheck') }}"><i class="material-icons">today</i> DailyCheck </span></a></li>
-								<li><a href="{{ url('/problem') }}"><i class="material-icons">error</i> Problem </span></a></li>
-								<li><a href="{{ url('/resolution') }}"><i class="material-icons">playlist_add_check</i> Resolution </span></a></li>
-								<li><a href="{{ url('/history') }}"><i class="material-icons">history</i> History </span></a></li>
-								<li><a><i class="material-icons">build</i> Config <span class="material-icons">keyboard_arrow_down</span></a>
-                    <ul class="nav child_menu">
-											<li><a><i class="material-icons">input</i> Category <span class="material-icons">keyboard_arrow_down</span></a>
-												<ul class="nav child_menu">
-													<li><a href="{{ url('/category') }}">Index</a></li>
-													<li><a href="{{ url('/category/create') }}">Create</a></li>
-												</ul>
-											</li>
-											<li><a><i class="material-icons">view_list</i> Task <span class="material-icons">keyboard_arrow_down</span></a>
-												<ul class="nav child_menu">
-													<li><a href="{{ url('/task') }}">Index</a></li>
-													<li><a href="{{ url('/task/create') }}">Create</a></li>
-												</ul>
-											</li>
-											<li><a><i class="material-icons">priority_high</i> Priority <span class="material-icons">keyboard_arrow_down</span></a>
-												<ul class="nav child_menu">
-													<li><a href="{{ url('/priority') }}">Index</a></li>
-													<li><a href="{{ url('/priority/create') }}">Create</a></li>
-													<li><a href="{{ url('/priority/config') }}">Config</a></li>
-												</ul>
-											</li>
-                    </ul>
-                  </li>
+								<li><a href="{{ url('/back/calendrier') }}"><i class="material-icons">date_range</i> Calendrier </span></a></li>
+								<li><a href="{{ url('/back/bibliotheque') }}"><i class="material-icons">local_library</i> Bibliothèque </span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -141,13 +115,7 @@
 
 						<ul class="nav navbar-nav navbar-right">
 							<li class="">
-								<form action="{{ url('logout') }}" method="post">
-									{{ csrf_field() }}
-								<button>Logout
-									<i class="mdl-color-text--red-400 material-icons" role="presentation">power_settings_new</i>
-									<span class="material-icons"></span>
-								</button>
-							</form>
+								<a href="{{url('logout')}}">Logout <i class="mdl-color-text--red-400 material-icons" role="presentation">power_settings_new</i></a>
 							</li>
 						</ul>
 					</nav>
