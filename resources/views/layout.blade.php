@@ -440,7 +440,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="pricing" class="section">
+	<!-- <section id="pricing" class="section">
 		<div class="container">
 			<div class="row title text-center">
 				<h2 class="margin-top white">Pricing</h2>
@@ -510,7 +510,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content modal-popup">
@@ -525,12 +525,26 @@
 			</div>
 		</div>
 	</div>
+	<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<h3 class="white">Nous contacter</h3>
+				<form action="{{ url('/contact') }}" method="post" class="popup-form">
+					{{ csrf_field() }}
+					<input type="text" name="username" class="form-control form-white" placeholder="Objet" >
+					<input type="password" name="password" class="form-control form-white" placeholder="Texte">
+					<button type="submit" class="btn btn-submit">Se Connecter</button>
+				</form>
+			</div>
+		</div>
+	</div>
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 text-center-mobile">
 					<h3 class="white">Pour plus d'informations</h3>
-					<a href="#" class="btn btn-blue ripple trial-button">Contactez-nous</a>
+					<a href="#" data-toggle="modal" data-target="#modal2" class="btn btn-blue">Contactez-nous</a>
 				</div>
 				<div class="col-sm-6 text-center-mobile">
 					<h3 class="white">Horaires d'ouvertures <span class="open-blink"></span></h3>
