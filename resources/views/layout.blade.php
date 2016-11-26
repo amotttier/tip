@@ -282,50 +282,159 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="team text-center">
-						<div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
+						<!-- <div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
 							<div class="overlay text-center">
 								<h3 class="white">$69.00</h3>
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div>
-						</div>
-						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+						</div> -->
+						<img src="img/team/overney.jpg" alt="Team Image" class="avatar">
 						<div class="title">
-							<h4>Ben Adamson</h4>
-							<h5 class="muted regular">Fitness Instructor</h5>
+							<h4>Serge Overney</h4>
+							<h5 class="muted regular">Directeur</h5>
 						</div>
-						<button data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill">Sign Up Now</button>
+						Mail : <a href="mailto:serge.overnay@vd.ch">serge.overnay@vd.ch</a></br>
+						Tel : +41 (0)21 316 59 00
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="team text-center">
-						<div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+						<!-- <div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
 							<div class="overlay text-center">
 								<h3 class="white">$69.00</h3>
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div>
-						</div>
-						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+						</div> -->
+						<img src="img/team/blaser.jpg" alt="Team Image" class="avatar">
 						<div class="title">
-							<h4>Eva Williams</h4>
-							<h5 class="muted regular">Personal Trainer</h5>
+							<h4>Jean-Pierre Blaser</h4>
+							<h5 class="muted regular">Directeur Adjoint</h5>
 						</div>
-						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
+						Mail : <a href="mailto:jean-pierre.blaser@vd.ch">jean-pierre.blaser@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 36
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="team text-center">
-						<div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+						<!-- <div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+						</div>
+					</div> -->
+						<img src="img/team/airaudi.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Jean-Jacques Airaudi</h4>
+							<h5 class="muted regular">Administrateur</h5>
+						</div>
+						Mail : <a href="mailto:jean-jacques.airaudi@vd.ch">jean-jacques.airaudi@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 37
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team text-center">
+						<!-- <div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
 							<div class="overlay text-center">
 								<h3 class="white">$69.00</h3>
 								<h5 class="light light-white">1 - 5 sessions / month</h5>
 							</div>
-						</div>
-						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+						</div> -->
+						<img src="img/team/muheim.jpg" alt="Team Image" class="avatar">
 						<div class="title">
-							<h4>John Phillips</h4>
-							<h5 class="muted regular">Personal Trainer</h5>
+							<h4>Béat Muheim</h4>
+							<h5 class="muted regular">Doyen Culture Générale et Maturité</h5>
 						</div>
-						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
+						Mail : <a href="mailto:beat.muheim@vd.ch">beat.muheim@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 38
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<!-- <div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div> -->
+						<img src="img/team/maregrande.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Antonio Maregrande</h4>
+							<h5 class="muted regular">Doyen mécanique automobile et carrosserie</h5>
+						</div>
+						Mail : <a href="mailto:antonio.maregrande@vd.ch">antonio.maregrande@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 32
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<!-- <div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+						</div>
+					</div> -->
+						<img src="img/team/bezzola.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Luigi Bezzola</h4>
+							<h5 class="muted regular">Doyen de l'automobile</h5>
+						</div>
+						Mail : <a href="mailto:luigi.bezzola@vd.ch">luigi.bezzola@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 31
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team text-center">
+						<!-- <div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div> -->
+						<img src="img/team/casoni.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Claude Casoni</h4>
+							<h5 class="muted regular">Doyen de l'éléctronique</h5>
+						</div>
+						Mail : <a href="mailto:claude.casoni@vd.ch">claude.casoni@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 33
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<!-- <div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div> -->
+						<img src="img/team/brandenberg.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Joseph Brandenberg</h4>
+							<h5 class="muted regular">Doyen de l'informatique et de l'électronique</h5>
+						</div>
+						Mail : <a href="mailto:joseph.brandenberg@vd.ch">joseph.brandenberg@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 34
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<!-- <div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+						</div>
+					</div> -->
+						<img src="img/team/meier.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Stéphanie Meier</h4>
+							<h5 class="muted regular">Doyen de la médico-technique et des soins corporels</h5>
+						</div>
+						Mail : <a href="mailto:stephanie.meier@vd.ch">stephanie.meier@vd.ch</a></br>
+						Tel : +41 (0)21 316 58 35
 					</div>
 				</div>
 			</div>
