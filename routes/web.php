@@ -14,7 +14,5 @@ Route::auth();
 Route::get('/logout','Auth\LoginController@logout');
 Route::get('/', 'HomeController@index');
 Route::group(['middleware' => 'auth'], function () {
-  Route::group(['prefix' => 'back'], function () {
-    Route::get('/','BackController@index');
-  });
+    Route::get('/calendrier','PageCalendrierController@index');
 });

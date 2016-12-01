@@ -27,7 +27,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $redirectTo = '/calendrier';
 
     /**
      * Create a new controller instance.
@@ -45,7 +45,7 @@ class LoginController extends Controller
       if($user){
         if(sha1($user->salt.$request->password) == $user->password){
           Auth::login($user);
-          return redirect('/back');
+          return redirect('/calendrier');
         }
         else{
           return redirect('/');
