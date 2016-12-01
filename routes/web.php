@@ -15,4 +15,8 @@ Route::get('/logout','Auth\LoginController@logout');
 Route::get('/', 'HomeController@index');
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/calendrier','PageCalendrierController@index');
+
+    /* Users Routes */
+    Route::get('/user','PageUserController@index');
+    Route::get('/user/create','PageUserController@create');
 });
