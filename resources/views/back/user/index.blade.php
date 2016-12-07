@@ -34,7 +34,7 @@
           {{ $user->email }}
         </td>
         <td>
-          {{ $user->fk_team }}
+          {{ $user->classe->classe }}
         </td>
         <td>
           @if($user->role == 'admin')
