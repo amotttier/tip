@@ -37,17 +37,19 @@
           {{ $user->classe->classe }}
         </td>
         <td>
-          @if($user->role == 'admin')
-            Admin
-          @else
+          @if($user->role == 0)
             User
+          @elseif($user->role == 1)
+            Professeur
+					@else
+						Administrateur
           @endif
         </td>
         <td>
-          <a href="{{ url('admin/users/'.$user->id.'/edit') }}"><i class="mdl-color-text--green-400 material-icons" role="presentation">create</i></a>
+          <a href="{{ url('user/'.$user->id.'/edit') }}"><i class="mdl-color-text--green-400 material-icons" role="presentation">create</i></a>
 				</td>
         <td>
-          <a href="{{ url('admin/users/'.$user->id.'/delete') }}" class="confirmation"><i class="mdl-color-text--red-400 material-icons" role="presentation">delete</i></a>
+          <a href="{{ url('user/'.$user->id.'/delete') }}" class="confirmation"><i class="mdl-color-text--red-400 material-icons" role="presentation">delete</i></a>
 				</td>
 			</tr>
 		@endforeach
