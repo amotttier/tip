@@ -51,7 +51,9 @@
 <!-- Color Picker -->
 <link href="{!! asset('css/bootstrap-colorpicker.min.css') !!}" rel="stylesheet">
 <link href="{!! asset('css/cropper.min.css') !!}" rel="stylesheet">
-
+<!-- FullCalendar -->
+<link href="{!! asset('css/fullcalendar.min.css') !!}" rel="stylesheet">
+<link href="{!! asset('css/fullcalendar.print.css') !!}" rel="stylesheet" media="print">
 
 <style>
 #view-source {
@@ -69,7 +71,7 @@
 <body class="nav-md">
 	<div class="container body">
 		<div class="main_container">
-			<div class="col-md-3 left_col">
+			<div class="col-md-3 left_col menu_fixed">
 				<div class="left_col scroll-view">
 					<div class="navbar nav_title" style="border: 0;">
 						<div class="site_title"><span>Epsic</span></div>
@@ -80,7 +82,7 @@
 					<!-- menu profile quick info -->
 					<div class="profile">
 						<div class="profile_pic">
-							<img src="{!! asset('img/Joker.JPEG') !!}" class="img-circle profile_img">
+							<img src="{!! asset('img/logo-active.png') !!}" class="img-circle profile_img">
 						</div>
 						<div class="profile_info">
 							<span>Vous êtes connecté</span>
@@ -195,6 +197,8 @@
 	<!-- Custom Theme Scripts -->
 	<script src="{!! asset('js/custom.min.js') !!}"></script>
 	<!-- Datatables -->
+	<script src="{!! asset('js/moment.min.js') !!}"></script>
+<script src="{!! asset('js/fullcalendar.min.js') !!}"></script>
 	<!-- Cropper -->
 	<script src="{!! asset('js/cropper.min.js') !!}"></script>
 	<!-- Select2 -->

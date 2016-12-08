@@ -8,6 +8,8 @@ use App\Http\Controllers\Controller;
 class PageCalendrierController extends Controller
 {
     public function index(){
-      
+      return view('back.calandar.index',[
+        'title' => 'Calendrier'
+      ]);
     }
 }
