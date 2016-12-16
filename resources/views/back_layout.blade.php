@@ -110,8 +110,8 @@
 											<li><a href="{{ url('/classe/create') }}">Create</a></li>
 										</ul>
 									</li>
-								<li><a href="{{ url('/back/calendrier') }}"><i class="material-icons">date_range</i> Calendrier </span></a></li>
-								<li><a href="{{ url('/back/bibliotheque') }}"><i class="material-icons">local_library</i> Bibliothèque </span></a></li>
+								<li><a href="{{ url('/calendrier') }}"><i class="material-icons">date_range</i> Calendrier </span></a></li>
+								<li><a href="{{ url('/bibliotheque') }}"><i class="material-icons">local_library</i> Bibliothèque </span></a></li>
 							</ul>
 						</div>
 					</div>
