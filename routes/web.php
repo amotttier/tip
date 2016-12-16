@@ -23,4 +23,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/user/{id}/edit','PageUserController@edit');
     Route::post('/user/{id}/edit','UserController@edit');
 
+    /* Classes Routes */
+    Route::get('/classe','PageClasseController@index');
+    Route::get('/classe/create','PageClasseController@create');
+    Route::post('/classe/create','ClasseController@create');
+
 });

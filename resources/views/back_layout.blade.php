@@ -104,6 +104,12 @@
 										<li><a href="{{ url('/user/create') }}">Create</a></li>
 									</ul>
 								</li>
+									<li><a><i class="material-icons">accessibility</i> Classes <span class="material-icons">keyboard_arrow_down</span></a>
+										<ul class="nav child_menu">
+											<li><a href="{{ url('/classe') }}">Index</a></li>
+											<li><a href="{{ url('/classe/create') }}">Create</a></li>
+										</ul>
+									</li>
 								<li><a href="{{ url('/back/calendrier') }}"><i class="material-icons">date_range</i> Calendrier </span></a></li>
 								<li><a href="{{ url('/back/bibliotheque') }}"><i class="material-icons">local_library</i> Bibliothèque </span></a></li>
 							</ul>

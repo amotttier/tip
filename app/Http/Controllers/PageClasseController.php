@@ -5,20 +5,20 @@ use App\User;
 use App\Classe;
 use Illuminate\Http\Request;
 
-class PageUserController extends Controller
+class PageClasseController extends Controller
 {
     public function index(){
-      $users = User::get();
-      return view('back.user.index',[
-        'title' => 'Utilisateurs',
-        'users' => $users
+      $classes = Classe::get();
+      return view('back.classe.index',[
+        'title' => 'Classes',
+        'classes' => $classes
       ]);
     }
 
     public function create(){
       $classes = Classe::get();
-      return view('back.user.create',[
-        'title' => 'Création utilisateur',
+      return view('back.classe.create',[
+        'title' => 'Création de classes',
         'classes' => $classes,
       ]);
 

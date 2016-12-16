@@ -12,51 +12,22 @@
 <table id="datatable" class="table table-striped table-bordered">
 	<thead>
 		<tr>
-			<th>Nom d'utilisateurs</th>
-			<th>Nom complet</th>
-      <th>Email</th>
-      <th>Classe</th>
-      <th>Type</th>
-			<th>Actif/Inactif</th>
+			<th>Classe</th>
 			<th>Edit</th>
       <th>Delete</th>
 		</tr>
 	</thead>
 	<tbody>
-		@foreach($users as $user)
+		@foreach($classes as $classe)
 			<tr>
 				<td>
-          {{ $user->username }}
+          {{ $classe->classe }}
 				</td>
         <td>
-          {{ $user->first_name.' '.$user->last_name }}
-        </td>
-        <td>
-          {{ $user->email }}
-        </td>
-        <td>
-          {{ $user->classe->classe }}
-        </td>
-        <td>
-          @if($user->role == 0)
-            User
-          @elseif($user->role == 1)
-            Professeur
-					@else
-						Administrateur
-          @endif
-        </td>
-				<td>
-					@if($user->actif == 0)
-						Inactif
-					@elseif($user->actif == 1)
-						Actif
-					@endif
-        <td>
-          <a href="{{ url('user/'.$user->id.'/edit') }}"><i class="mdl-color-text--green-400 material-icons" role="presentation">create</i></a>
+          <a href="{{ url('user/'.$classe->id.'/edit') }}"><i class="mdl-color-text--green-400 material-icons" role="presentation">create</i></a>
 				</td>
         <td>
-          <a href="{{ url('user/'.$user->id.'/delete') }}" class="confirmation"><i class="mdl-color-text--red-400 material-icons" role="presentation">delete</i></a>
+          <a href="{{ url('user/'.$classe->id.'/delete') }}" class="confirmation"><i class="mdl-color-text--red-400 material-icons" role="presentation">delete</i></a>
 				</td>
 			</tr>
 		@endforeach

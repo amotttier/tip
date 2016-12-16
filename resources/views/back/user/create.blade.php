@@ -26,6 +26,18 @@
       <input id="mail" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="mail" placeholder="Email" required="required" type="email">
     </div>
   </div>
+  <div class="item form-group">
+    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="mail">Mot de passe <span class="required">*</span></label>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+      <input id="password" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="password" placeholder="password" required="required" type="password">
+    </div>
+  </div>
+  <div class="item form-group">
+    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="mail">Confirmer mot de passe <span class="required">*</span></label>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+      <input id="password" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="conf_password" placeholder="Password" required="required" type="password">
+    </div>
+  </div>
   <div class="form-group">
     <label class="control-label col-md-3 col-sm-3 col-xs-12">Type <span class="required">*</span></label>
     <div class="col-md-6 col-sm-6 col-xs-12">
