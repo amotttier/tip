@@ -43,7 +43,7 @@ class LoginController extends Controller
 
       $user = User::where('username',$request->username)->first();
       if($user){
-        if(sha1($user->salt.$request->password) == $user->password){
+        if(sha1($request->password) == $user->password){
           Auth::login($user);
           return redirect('/calendrier');
         }

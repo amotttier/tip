@@ -98,6 +98,7 @@
 						<div class="menu_section">
 							<h3>XMPT4A</h3>
 							<ul class="nav side-menu">
+								@if(Auth::user()->type == 2)
 								<li><a><i class="material-icons">people</i> Users <span class="material-icons">keyboard_arrow_down</span></a>
 									<ul class="nav child_menu">
 										<li><a href="{{ url('/user') }}">Index</a></li>
@@ -110,6 +111,7 @@
 											<li><a href="{{ url('/classe/create') }}">Create</a></li>
 										</ul>
 									</li>
+									@endif
 								<li><a href="{{ url('/calendrier') }}"><i class="material-icons">date_range</i> Calendrier </span></a></li>
 								<li><a href="{{ url('/bibliotheque') }}"><i class="material-icons">local_library</i> Bibliothèque </span></a></li>
 							</ul>

@@ -15,7 +15,9 @@ Route::get('/logout','Auth\LoginController@logout');
 Route::get('/', 'HomeController@index');
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/calendrier','PageCalendrierController@index');
-
+    Route::get('/bibliotheque','PageBibliothequeController@index');
+    //Admin Routes
+    Route::group(['middleware' => 'admin'], function () {
     /* Users Routes */
     Route::get('/user','PageUserController@index');
     Route::get('/user/create','PageUserController@create');
@@ -27,5 +29,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/classe','PageClasseController@index');
     Route::get('/classe/create','PageClasseController@create');
     Route::post('/classe/create','ClasseController@create');
-
+    });
 });
